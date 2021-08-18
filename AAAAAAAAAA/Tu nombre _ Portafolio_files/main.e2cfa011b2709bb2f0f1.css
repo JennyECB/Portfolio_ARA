@@ -21,7 +21,7 @@ body {
 }
 footer,
 section.even {
-  color: var(--gray3);
+  color: #003c3e;
 }
 h3 {
   font-size: 2rem;
@@ -87,15 +87,6 @@ header {
   padding: 5rem 0 3rem;
   position: relative;
 }
-/*header video {
-  left: 50%;
-  min-height: 100%;
-  min-width: 100%;
-  opacity: 0.2;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}*/
 #navbar {
   box-shadow: 0 0 10px 1px var(--gray3);
 }
@@ -143,7 +134,7 @@ header {
   width: 100%;
 }
 #navbar.open ul {
-  max-height: 150px;
+  max-height: 200px;
 }
 #navbar li {
   list-style: none;
@@ -238,12 +229,12 @@ header {
   opacity: 0.75;
   top: 40%;
 }
-#skillset > div {
+/*#skillset > div {
   grid-gap: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: 1rem;
-}
+}*/
 #skillset img {
   border-radius: 1rem;
   cursor: context-menu;
@@ -252,8 +243,13 @@ header {
 }
 #skillset > div > div {
   position: relative;
+  display: inline-block;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 2.5rem;
 }
 #skillset span {
+  color: var(--white);
   background-color: rgba(0, 0, 0, 0.75);
   border-radius: 0.5rem;
   left: 50%;
@@ -300,9 +296,19 @@ header {
   margin-bottom: 3rem;
 }
 #experience > div > div {
-    display: inline-block
+    display: inline-block;
 }
-
+#contact button {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  display: inline-block;
+  width: 200px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: var(--white);
+  background-color: #003c3e;
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {
   -webkit-text-size-adjust: 100%;
