@@ -286,9 +286,12 @@ header {
   border-radius: 25px;
   cursor: pointer;
   height: 150px;
+  max-height:100%;
   padding: 2rem;
   transition: border-radius 0.3s ease, box-shadow 0.3s ease;
   width: 150px;
+  max-width: 100%;
+  height: auto;
 }
 #experience img:hover {
   border-radius: 0;
