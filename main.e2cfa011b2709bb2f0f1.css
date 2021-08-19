@@ -79,7 +79,7 @@ section.even hr {
   );
 }
 section hr {
-  margin-bottom: 0;
+  margin-bottom: 3rem;
 }
 header {
   color: var(--white);
