@@ -79,7 +79,7 @@ section.even hr {
   );
 }
 section hr {
-  margin-bottom: 5rem;
+  margin-bottom: 0;
 }
 header {
   color: var(--white);
@@ -171,7 +171,7 @@ header {
   cursor: zoom-in;
   display: inline;
   margin: 1rem auto;
-  max-width: 400px;
+  max-width: 390px;
   overflow: hidden;
   padding: 0;
   position: relative;
